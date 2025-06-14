@@ -1,0 +1,32 @@
+*{
+    font-family: "Roboto", "Raleway";
+}
+
+
+.web-studio-logo{
+    color: #4D5AE5;
+}
+
+
+.web-studio-logo-font{
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.54px;
+  line-height: 21px;
+  font-family: "Raleway";
+}
+
+
+.effective-solutions-for-your-business{
+    background: #2E2F42;
+} 
+
+
+.our-team{
+    background: #F4F4FD;
+}
+
+
+.footer{
+    background-color: #2E2F42;
+}
