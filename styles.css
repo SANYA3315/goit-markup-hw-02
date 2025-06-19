@@ -1,8 +1,8 @@
 * {
-    font-family: "Roboto", "Raleway", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", "Raleway", sans-serif;
 }
 
 body {
@@ -26,7 +26,6 @@ a:focus {
     padding: 0 15px;
 }
 
-
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -40,8 +39,7 @@ a:focus {
     gap: 40px;
 }
 
-
-.web-studio-logo-font {
+.webstudio-logo-font {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -54,13 +52,12 @@ a:focus {
     align-items: center;
 }
 
-.web-studio-logo-font:hover,
-.web-studio-logo-font:focus {
-    color: #3a44c8;
+.webstudio-logo-font:hover,
+.webstudio-logo-font:focus {
+    color: #404bbf;
 }
 
-
-.web-studio-logo {
+.webstudio-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 1.17;
@@ -68,11 +65,6 @@ a:focus {
     text-transform: uppercase;
     color: #2e2f42;
     margin-right: 4px;
-}
-
-
-.footer a span.web-studio-logo {
-    color: #f4f4fd;
 }
 
 .studio-portfolio-navigation {
