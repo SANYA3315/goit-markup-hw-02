@@ -168,20 +168,20 @@ a:focus {
     margin-bottom: 40px;
 }
 
-.text-h3,
-.h3-our-team {
+.text-h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     margin-bottom: 10px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.our-team-p,
 .text-in-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #000;
+    color: #434455;
     margin-bottom: 10px;
 }
 
@@ -228,5 +228,6 @@ a:focus {
     font-size: 16px;
     line-height: 1.5;
 }
+
 
 
