@@ -166,34 +166,9 @@ a:focus {
     line-height: 1.11;
     text-align: center;
     margin-bottom: 40px;
-}
-
-.team-section {
-    background-color: #F4F4FD;
-    padding: 60px 20px;
-}
-
-.team-list li {
-    background-color: #FFFFFF;
-    flex: 1 1 200px;
-    max-width: 264px;
-    text-align: center;
-}
-
-.h3-our-team {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 10px;
-}
-
-.our-team-p {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 .text-h3 {
@@ -203,6 +178,7 @@ a:focus {
     margin-bottom: 10px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .text-in-p {
@@ -213,12 +189,15 @@ a:focus {
     margin-bottom: 10px;
 }
 
+.features-list li,
 .team-list li,
-.portfolio-list li,
-.features-list li {
+.portfolio-list li {
     flex: 1 1 200px;
     max-width: 264px;
     text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 15px;
 }
 
 .team-list img,
@@ -256,7 +235,3 @@ a:focus {
     font-size: 16px;
     line-height: 1.5;
 }
-
-
-
-
