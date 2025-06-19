@@ -55,7 +55,6 @@ a:focus {
     color: #3a44c8;
 }
 
-
 .web-studio-logo {
     color: #2e2f42;
 }
@@ -126,8 +125,11 @@ a:focus {
 
 button {
     cursor: pointer;
-    font-weight: 700;
-    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     padding: 14px 28px;
     border: none;
     border-radius: 6px;
@@ -138,7 +140,7 @@ button {
 
 button:hover,
 button:focus {
-    background-color: #3a44c8;
+    background-color: #404bbf;
 }
 
 .features-section,
