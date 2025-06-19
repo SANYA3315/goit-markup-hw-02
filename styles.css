@@ -8,7 +8,7 @@
 body {
     color: #434455;
     background-color: #ffffff;
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -39,16 +39,15 @@ a:focus {
     gap: 40px;
 }
 
-.web-studio-logo {
-    color: #4d5ae5;
-}
-
 .web-studio-logo-font {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    letter-spacing: 0.54px;
-    line-height: 21px;
-    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
 }
 
 .web-studio-logo-font:hover,
@@ -56,39 +55,58 @@ a:focus {
     color: #3a44c8;
 }
 
+
+.web-studio-logo {
+    color: #2e2f42;
+}
+
 .studio-portfolio-navigation {
     list-style: none;
     display: flex;
     gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.studio-portfolio-navigation li a.nav-link {
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.studio-portfolio-navigation li a {
-    color: #000;
+    color: #2e2f42;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.studio-portfolio-navigation li a:hover,
-.studio-portfolio-navigation li a:focus {
-    color: #4d5ae5;
+.studio-portfolio-navigation li a.nav-link:hover,
+.studio-portfolio-navigation li a.nav-link:focus {
+    color: #404bbf;
 }
 
-.header-address .address {
+.header-address {
+    font-style: normal;
+}
+
+.address-list {
     list-style: none;
-    font-size: 16px;
-    letter-spacing: 0.02em;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
 }
 
-.address li a {
-    color: #000;
+.address-list li a.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.address li a:hover,
-.address li a:focus {
-    color: #4d5ae5;
+.address-list li a.address-link:hover,
+.address-list li a.address-link:focus {
+    color: #404bbf;
 }
 
 .hero-section {
@@ -208,4 +226,5 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
 }
+
 
