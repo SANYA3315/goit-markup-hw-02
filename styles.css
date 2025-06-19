@@ -26,6 +26,7 @@ a:focus {
     padding: 0 15px;
 }
 
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -39,6 +40,7 @@ a:focus {
     gap: 40px;
 }
 
+
 .web-studio-logo-font {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -48,6 +50,8 @@ a:focus {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
 }
 
 .web-studio-logo-font:hover,
@@ -55,12 +59,19 @@ a:focus {
     color: #3a44c8;
 }
 
+
 .web-studio-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #2e2f42;
+    margin-right: 4px;
+}
+
+
+.footer a span.web-studio-logo {
     color: #f4f4fd;
 }
 
@@ -100,6 +111,7 @@ a:focus {
 }
 
 .address-list li a.address-link {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -152,6 +164,7 @@ a:focus {
 .team-section,
 .portfolio-section {
     padding: 60px 20px;
+    background-color: #f4f4fd;
 }
 
 .features-list,
@@ -200,15 +213,15 @@ a:focus {
     flex: 1 1 200px;
     max-width: 264px;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 6px;
     padding: 15px;
 }
 
 .team-list img,
 .portfolio-list img {
-    width: 264px;
-    height: 260px;
+    width: 360px;
+    height: auto;
     object-fit: cover;
     border-radius: 6px;
     margin-bottom: 15px;
@@ -237,10 +250,6 @@ a:focus {
 .footer a:hover,
 .footer a:focus {
     color: #3a44c8;
-}
-
-.footer a span.web-studio-logo {
-    color: #f4f4fd;
 }
 
 .footer p {
