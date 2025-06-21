@@ -129,11 +129,14 @@ ul {
 
 .hero-button:hover {
     background-color: #404bbf;
+    color: #ffffff;
 }
 
 .hero-button:focus {
     background-color: #404bbf;
+    color: #ffffff;
 }
+
 
 .features-section {
     background-color: #f4f4fd;
@@ -275,8 +278,6 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-/* Footer styles без var() */
 
 .page-footer {
     background-color: #2e2f42;
