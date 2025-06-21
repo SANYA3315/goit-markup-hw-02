@@ -128,7 +128,9 @@ ul {
     transition: background-color 0.3s ease;
 }
 
-.hero-button:hover,
+.hero-button:hover{
+    background-color: #404bbf;
+}
 .hero-button:focus {
     background-color: #404bbf;
 }
