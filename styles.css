@@ -38,7 +38,7 @@ ul {
     gap: 40px;
 }
 
-.logo-link {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -50,7 +50,7 @@ ul {
     align-items: center;
 }
 
-.logo-accent {
+.logo-span {
     color: #2e2f42;
     margin-left: 4px;
 }
@@ -136,7 +136,6 @@ ul {
     background-color: #404bbf;
     color: #ffffff;
 }
-
 
 .features-section {
     background-color: #f4f4fd;
@@ -304,7 +303,7 @@ ul {
     margin-bottom: 10px;
 }
 
-.footer-logo .logo-accent {
+.footer-logo .logo-span {
     color: #f4f4fd;
     margin-left: 4px;
 }
