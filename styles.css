@@ -276,7 +276,7 @@ ul {
     color: #434455;
 }
 
-/* Footer styles - исправленные согласно ТЗ */
+/* Footer styles без var() */
 
 .page-footer {
     background-color: #2e2f42;
