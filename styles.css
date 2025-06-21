@@ -228,35 +228,38 @@ ul {
 }
 
 .page-footer {
-  background-color: #2e2f42;
-  padding: 40px 20px;
-  text-align: center;
-  color: #f4f4fd;
+    background-color: #2e2f42;
+    padding: 40px 20px;
+    text-align: center;
 }
+
 .footer-container {
-  max-width: 600px;
-  margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto;
 }
+
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  display: inline-block;
-  margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 10px;
 }
+
 .logo-span {
-  color: #f4f4fd;
-  margin-left: 4px;
+    color: #f4f4fd;
+    margin-left: 4px;
 }
+
 .footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  max-width: 264px;
-  margin: 0 auto;
-  color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+    margin: 0 auto;
 }
