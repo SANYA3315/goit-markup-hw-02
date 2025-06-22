@@ -303,7 +303,7 @@ ul {
     margin-bottom: 10px;
 }
 
-.footer-logo .logo-span {
+.footer-logo, .logo-span {
     color: #f4f4fd;
     margin-left: 4px;
 }
