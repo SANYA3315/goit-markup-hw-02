@@ -321,3 +321,52 @@ ul {
     max-width: 264px;
     margin: 0 auto;
 }
+
+:root {
+    --footer-text-color: #f4f4fd;
+}
+
+.page-footer {
+    background-color: #2e2f42;
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--footer-text-color);
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.logo-span {
+    color: var(--footer-text-color);
+    margin-left: 4px;
+}
+
+.logo:hover,
+.logo:focus {
+    color: #3a44c8;
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footer-text-color);
+    max-width: 264px;
+    margin: 0 auto;
+}
+
